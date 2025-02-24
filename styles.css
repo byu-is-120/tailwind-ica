@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: #f3f4f6;
+}
+
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: white;
+}
+
+.destination-card {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    width: 300px;
+}
+
+.experiences {
+    background-color: #f3f4f6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.experience {
+    background-color: white;
+    width: 350px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
